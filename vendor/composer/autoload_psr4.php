@@ -6,6 +6,12 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Stripe\\' => array($vendorDir . '/stripe/stripe-php/lib'),
+    'SimpleCrud\\' => array($vendorDir . '/simple-crud/simple-crud/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Psr\\EventDispatcher\\' => array($vendorDir . '/psr/event-dispatcher/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
+    'Atlas\\Query\\' => array($vendorDir . '/atlas/query/src'),
+    'Atlas\\Pdo\\' => array($vendorDir . '/atlas/pdo/src'),
 );

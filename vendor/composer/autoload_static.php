@@ -7,24 +7,63 @@ namespace Composer\Autoload;
 class ComposerStaticInit39a5e66579b0bfac2a208074a2856e69
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+            'SimpleCrud\\' => 11,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\EventDispatcher\\' => 20,
         ),
         'M' => 
         array (
             'Monolog\\' => 8,
         ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
+        ),
+        'A' => 
+        array (
+            'Atlas\\Query\\' => 12,
+            'Atlas\\Pdo\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
+        'SimpleCrud\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simple-crud/simple-crud/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
+        'Psr\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'Atlas\\Query\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/atlas/query/src',
+        ),
+        'Atlas\\Pdo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/atlas/pdo/src',
         ),
     );
 
